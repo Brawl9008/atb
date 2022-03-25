@@ -12,7 +12,7 @@ MAIN_URL = f'https://api.telegram.org/bot{TOKEN}'
 # #
 # # print(r.json())
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(5122922697:AAGAcfndeQYvzgdMWtco8XK6s7o4_v-Ly2o)
 task = Task()
 
 @bot.message_handler(commands=['start', 'go'])
